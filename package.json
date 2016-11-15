@@ -1,0 +1,30 @@
+{
+  "name": "pokereum-rtc",
+  "version": "0.0.1",
+  "description": "Multi-Party-Computation-RTC represents POC 1 of the Pokereum real time game state synchrony and private computation between poker nodes on the pokereum network. Note there is no actual security in this version; i.e state signing, private encryption and authentication which is partially accomplished with integration of the Shadow Poker protocol",
+  "main": "index.js",
+  "scripts": {
+    "start": "node example/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pokereum/Pokereum-RTC.git"
+  },
+  "keywords": [
+    "SuperDAO",
+    "Pokereum",
+    "poker",
+    "telehash"
+  ],
+  "author": "SuperDao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pokereum/Pokereum-RTC/issues"
+  },
+  "homepage": "https://github.com/Pokereum/Pokereum-RTC#readme",
+  "dependencies": {
+    "async": "^2.1.2",
+    "telehash": "^0.4.18",
+    "web3": "^0.17.0-beta"
+  }
+}
