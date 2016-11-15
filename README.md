@@ -1,10 +1,14 @@
 # Install
-npm install --ignore-scripts
+`npm install`
+
+or
+
+`npm install --ignore-scripts`
 
 # Example
 Pokereum-RTC comes with an example usage from the CLI. Run the client with:
 
-node example/index.js
+`node example/index.js`
 
 You must host or join a game before you can chat. After hosting or joining a game, you must sit, if you want to play.
 
@@ -135,7 +139,7 @@ There are two layers of communication - main lobby and games. Both are built wit
 ## Routing
 
 ### Telehash router
-You can find a basic router implementation here: https://github.com/Pokereum/Pokereum-Telehash-whisper-Router
+You can find a basic router implementation here: https://github.com/Pokereum/Pokereum-Telehash-Router
 
 The Telehash routers are defined in config/network.js (telehashRouters array). The router is serving its Telehash mesh JSON on HTTP GET request.
 
