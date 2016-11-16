@@ -14,7 +14,7 @@ You must host or join a game before you can chat. After hosting or joining a gam
 
 ## CLI Commands
 * name (name) - change your name
-* host [small blind] [big blind] [min players] [max players] - host game
+* host [game name] [small blind] [big blind] [min players] [max players] - host game
 * join (game ID) - join game with ID. You can use "last" instead of game ID to join the last broadcast game.
 * start - start the game, if you're host
 * msg (message) - send chat message
